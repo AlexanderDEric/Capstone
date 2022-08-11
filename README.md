@@ -65,6 +65,15 @@ Download the 'DSC-580 Week 6.py'
 
 ### Executing program
 
+Funtional Requirements
+
+
+```
+Forecast Turnover Rate   -     CreateFinalTable()
+Plot Results             -     PredictTurnover()
+Generate Report          -     WriteToExcel()
+```
+
 Functions in the source code has been nested, so only one function needs to be ran to get your desired output.
 
 ```
