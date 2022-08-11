@@ -69,20 +69,31 @@ Functions in the source code has been nested, so only one function needs to be r
 
 ```
 ReadSQL
+- Will read your data in from a SQL Database
 ReadExcel
-GetTurnoverRate
-GetFeatureFrame
+- Will read your data in from an Excel file
 ExpSmooth
+- Begins the process of smoothing your data set
 OptimizeArima
+- Select the best Model Paramteres to use
 RunArima
+- Runs the ARIMA model based on model paramteres selected above
 Predictions
+- Obtain predictions over past values and explain variance
 CreateForecast
+- Obtain forecasted values from ARIMA model
 InvExp
+- If ExpSmooth was applied, inverse the forecasted results back into actual
 r2score
+- Create r2Score
 CreateFinalTable
+- Creates final report to be exported
 PredictTurnover
+- Plots finalizaed graph out outputted values
 WriteToSql
+- Will save data to a SQL table
 WriteToExcel
+- Will save data to an Excel file
 ```
 
 ## Help
